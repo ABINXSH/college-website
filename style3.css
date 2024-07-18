@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.course-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+}
+header{
+background-color: #333;
+text-align: center;
+color: aliceblue;
+padding: 3%;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+}
+.course-details-container h2 {
+    margin-bottom: 10px;
+}
+
+.course-details-container p {
+    margin-bottom: 8px;
+}
+
+.course-details-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-details-container ul li {
+    margin-bottom: 5px;
+}
+
+.course-details-container a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.course-details-container a:hover {
+    text-decoration: underline;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #333;
+}
+.ece{
+    background-image: url(research_devices.webp);
+    padding: 10%;
+}
+.cse{
+    background-image: url(wp2700080.webp);
+    padding: 10%;
+}
+.mec{
+    background-image: url(mechanical-engineering-project.webp);
+    padding: 10%;
+}
+.aiml{
+    background-image: url(DS-vs-AI-Machine-Learning_IndustryApplication_web.webp);
+    padding: 10%;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0e6612;
+}
+.red{
+    background-color: #b34141;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.red:hover {
+    background-color: #ff0000;
